@@ -1,0 +1,184 @@
+There are total 2 supported mouse buttons
+Allegro5 initialized
+Game begin
+loaded font: Assets/Minecraft.ttf with size 30
+loaded audio: Assets/Music/original_theme.ogg
+loaded audio: Assets/Music/cometome.ogg
+loaded audio: Assets/Music/cometome.ogg
+loaded audio: Assets/Music/darari.ogg
+loaded audio: Assets/Music/pacman-chomp.ogg
+loaded audio: Assets/Music/pacman_eatfruit.ogg
+loaded audio: Assets/Music/pacman_death.ogg
+Game initialized
+Menu scene created
+Change scene from (unnamed) to Menu
+loaded image: Assets/settings.png
+loaded image: Assets/settings2.png
+loaded image: Assets/title.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_I2PYANG.png
+loaded image: Assets/map_mustwin.png
+loaded image: Assets/right.png
+loaded image: Assets/right.png
+loaded image: Assets/left.png
+loaded image: Assets/left.png
+Game start event loop
+Key with keycode 67 down
+Start scene created
+Change scene from Menu to Start
+Assets/map_nthu.txt
+
+loaded image: Assets/pacman_move.png
+loaded image: Assets/pacman_die.png
+creating ghost 0
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_red.png
+creating ghost 1
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_orange.png
+creating ghost 2
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_blue.png
+creating ghost 3
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_pink.png
+Key with keycode 215 down
+Key with keycode 1 down
+Key with keycode 19 down
+Key with keycode 1 down
+Key with keycode 19 down
+Key with keycode 1 down
+Key with keycode 23 down
+Key with keycode 4 down
+collide with ghost
+
+Gameover scene created
+Change scene from Start to Gameover
+loaded image: Assets/gameover_logo.png
+loaded image: Assets/leaf1.png
+loaded image: Assets/leaf2.png
+loaded image: Assets/restart.png
+loaded image: Assets/restart2.png
+loaded image: Assets/backmenu.png
+loaded image: Assets/backmenu2.png
+Menu scene created
+Change scene from Gameover to Menu
+loaded image: Assets/settings.png
+loaded image: Assets/settings2.png
+loaded image: Assets/title.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_I2PYANG.png
+loaded image: Assets/map_mustwin.png
+loaded image: Assets/right.png
+loaded image: Assets/right.png
+loaded image: Assets/left.png
+loaded image: Assets/left.png
+Key with keycode 67 down
+Start scene created
+Change scene from Menu to Start
+Assets/map_mustwin.txt
+
+loaded image: Assets/pacman_move.png
+loaded image: Assets/pacman_die.png
+creating ghost 0
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_red.png
+creating ghost 1
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_orange.png
+creating ghost 2
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_blue.png
+creating ghost 3
+
+loaded image: Assets/ghost_flee.png
+loaded image: Assets/ghost_dead.png
+loaded image: Assets/ghost_move_pink.png
+Key with keycode 215 down
+Key with keycode 157 down
+Key with keycode 215 down
+Key with keycode 1 down
+Key with keycode 4 down
+Key with keycode 23 down
+Key with keycode 1 down
+Key with keycode 19 down
+Key with keycode 4 down
+ate all beans
+
+Gameover scene created
+Change scene from Start to Gameover
+loaded image: Assets/gameover_logo.png
+loaded image: Assets/leaf1.png
+loaded image: Assets/leaf2.png
+loaded image: Assets/restart.png
+loaded image: Assets/restart2.png
+loaded image: Assets/backmenu.png
+loaded image: Assets/backmenu2.png
+Win scene created
+Change scene from Gameover to Win
+loaded image: Assets/win_logo.png
+loaded image: Assets/win_pic.png
+loaded image: Assets/award.png
+loaded image: Assets/award.png
+loaded image: Assets/restart.png
+loaded image: Assets/restart2.png
+loaded image: Assets/backmenu.png
+loaded image: Assets/backmenu2.png
+Menu scene created
+Change scene from Win to Menu
+loaded image: Assets/settings.png
+loaded image: Assets/settings2.png
+loaded image: Assets/title.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_nthu.png
+loaded image: Assets/map_I2PYANG.png
+loaded image: Assets/map_mustwin.png
+loaded image: Assets/right.png
+loaded image: Assets/right.png
+loaded image: Assets/left.png
+loaded image: Assets/left.png
+Settings scene created
+Change scene from Menu to Settings
+loaded image: Assets/set_title.png
+loaded image: Assets/checkbox2.png
+loaded image: Assets/WS.png
+loaded image: Assets/updown.png
+loaded image: Assets/soft.png
+loaded image: Assets/joyful.png
+loaded image: Assets/sound.png
+loaded image: Assets/checkbox.png
+loaded image: Assets/checkbox2.png
+loaded image: Assets/checkbox.png
+loaded image: Assets/checkbox2.png
+loaded image: Assets/plus.png
+loaded image: Assets/plus.png
+loaded image: Assets/minus.png
+loaded image: Assets/minus.png
+loaded image: Assets/right.png
+loaded image: Assets/right.png
+loaded image: Assets/left.png
+loaded image: Assets/left.png
+loaded image: Assets/plus.png
+loaded image: Assets/plus.png
+loaded image: Assets/minus.png
+loaded image: Assets/minus.png
+loaded image: Assets/back.png
+loaded image: Assets/back2.png
+Window close button clicked
+Game end
