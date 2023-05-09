@@ -508,6 +508,8 @@ void unpenetrate(void)
 
 }
 
+
+
 // The only function that is shared across files.
 Scene scene_main_create(void) {
 	Scene scene;

@@ -23,6 +23,7 @@ static ALLEGRO_BITMAP* map3 = NULL;
 static ALLEGRO_SAMPLE_ID menuBGM;
 static ALLEGRO_SAMPLE_ID inBGM;
 extern int map_i = 1;
+extern int flag;
 
 // [HACKATHON 3]
 // TARGET : use a clickable button to enter setting scene.
@@ -125,13 +126,26 @@ static void draw() {
 
 static void on_key_down(int keycode) {
 
-	switch (keycode) {
+		switch (keycode) {
 		case ALLEGRO_KEY_ENTER:
 			game_change_scene(scene_main_create());
 			break;
+		case ALLEGRO_KEY_RIGHT:
+		case ALLEGRO_KEY_D:
+			if (map_i == 1)  map_i = 2;
+			else if (map_i == 2)  map_i = 3;
+			else if (map_i == 3)  map_i = 1;
+			break;
+		case ALLEGRO_KEY_LEFT:
+		case ALLEGRO_KEY_A:
+			if (map_i == 1)  map_i = 3;
+			else if (map_i == 2)  map_i = 1;
+			else if (map_i == 3)  map_i = 2;
+			break;
 		default:
 			break;
-	}
+		}
+	
 }
 
 // Functions without 'static', 'extern' prefixes is just a normal

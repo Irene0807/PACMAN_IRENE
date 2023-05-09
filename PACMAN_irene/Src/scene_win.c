@@ -30,6 +30,7 @@ static Button btnRestart;
 static Button btnBackMenu;
 char prscore[3000];
 extern int game_main_Score;
+extern flag;
 
 static void init() {
 
@@ -78,6 +79,34 @@ static void on_mouse_down() {
 	}
 }
 
+static void on_key_down(int keycode) {
+
+	if (flag == 1) {
+		switch (keycode) {
+		case ALLEGRO_KEY_RIGHT:
+			game_change_scene(scene_menu_create());
+			break;
+		case ALLEGRO_KEY_LEFT:
+			game_change_scene(scene_main_create());
+			break;
+		default:
+			break;
+		}
+	}
+	else if (flag == 0) {
+		switch (keycode) {
+		case ALLEGRO_KEY_D:
+			game_change_scene(scene_menu_create());
+			break;
+		case ALLEGRO_KEY_A:
+			game_change_scene(scene_main_create());
+			break;
+		default:
+			break;
+		}
+	}
+}
+
 static void destroy() {
 
 	al_destroy_bitmap(btnRestart.default_img);
@@ -100,6 +129,7 @@ Scene scene_win_create(void) {
 	scene.destroy = &destroy;
 	scene.on_mouse_move = &on_mouse_move;
 	scene.on_mouse_down = &on_mouse_down;
+	scene.on_key_down = &on_key_down;
 	// TODO: Register more event callback functions such as keyboard, mouse, ...
 	game_log("Win scene created");
 	return scene;

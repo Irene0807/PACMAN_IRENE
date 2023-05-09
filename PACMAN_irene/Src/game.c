@@ -5,7 +5,9 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
+#include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
 #include <allegro5/allegro_image.h>
@@ -17,6 +19,7 @@
 #include "scene_game.h" 
 #include "scene_menu.h"
 #include "shared.h"
+
 /* global variables*/
 const int FPS = 60;
 const int SCREEN_W = 800;
@@ -163,6 +166,7 @@ static void allegro5_init(void) {
 
 	// Start the timer to update and draw the game.
 	al_start_timer(game_update_timer);
+	
 }
 
 static void game_start_event_loop(void) {
@@ -346,4 +350,5 @@ static void game_vlog(const char* format, va_list arg) {
 	clear_file = false;
 #endif
 }
+
 
